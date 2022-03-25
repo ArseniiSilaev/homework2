@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +13,7 @@ namespace homework2
             Console.Write("Введите Вашу строку: ");
             string userString = Console.ReadLine();
             int repeatCount = 8;
-            while (repeatCount-- > 0)
+            for (int i = 0; i < repeatCount; i++)
             {
                 Console.WriteLine(userString);
             }
